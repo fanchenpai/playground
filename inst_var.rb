@@ -11,5 +11,9 @@ class Child < Parent
   end
 end
 
-c.print_var
+p = Parent.new
+c = Child.new
+
+
 p.print_var # won't print anything
+c.print_var
