@@ -12,4 +12,4 @@ class Child < Parent
 end
 
 c.print_var
-p.print_var
+p.print_var # won't print anything
